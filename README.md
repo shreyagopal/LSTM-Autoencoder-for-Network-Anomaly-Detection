@@ -3,10 +3,7 @@ Training an LSTM-based autoencoder to detect anomalies in the KDD99 network traf
 
 # Project Instructions
 
-In this project, you will combine what you have learned in the previous two sections to create and train an LSTM-based autoencoder 
-to detect anomalies in the KDD99 network traffic dataset. For this task, you should use the same encoding technique as that of the model 
-presented in Section 4. As for the architecture of the LSTM autoencoder, you can use the one presented in Section 5. However, feel free to 
-explore other architectures as well. 
+In this project, we will create and train an LSTM-based autoencoder to detect anomalies in the KDD99 network traffic dataset. For this task, you should use the 
 
 Note that KDD99 does not include timestamps as a feature. The simplest approach to making these discrete datapoints into time-domain data 
 is to assume that each datapoint occurs at the timestep immediately after the previous datapoint. However, more sophisticated approaches 
